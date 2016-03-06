@@ -6,7 +6,8 @@ function preload(){
   sound = loadSound('assets/analysisdmaiff.mp3')
 }
 function setup(){
-  cnv = createCanvas(600,450);
+  //original canvas size: 600 X 450
+  cnv = createCanvas(1280,720);
   sound.amp(0);
   sound.loop();
   fft = new p5.FFT();
