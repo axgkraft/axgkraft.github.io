@@ -28,6 +28,9 @@ function draw(){
     ellipse(x, h+height, random(-diam,diam), random(-diam,diam));
   }
 
+  fill(200,200,200); //make text white
+  text("Xanthe Kraft  \nWHITE RADIANCE  \nMusic 27", 1000, 25, 1050, 60);
+
   var waveform = fft.waveform();
   noFill();
   beginShape();
